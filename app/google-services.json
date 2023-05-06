@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "182867107965",
+    "project_id": "cafereservation-6a75f",
+    "storage_bucket": "cafereservation-6a75f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182867107965:android:7e2ae42bd8beb1ca6fd114",
+        "android_client_info": {
+          "package_name": "tr.mfk.cafereservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182867107965-34dlbokdl2fpt5n9i9056lgprjbkssr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tr.mfk.cafereservation",
+            "certificate_hash": "2274f389a67b5b2e2085cad0ff9111db540c9013"
+          }
+        },
+        {
+          "client_id": "182867107965-9ekjmeuaae0k915qsc3enlvo516bmfsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvamIuoeu3ZiBIQvu3MxkbbUlmSsNrtxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182867107965-9ekjmeuaae0k915qsc3enlvo516bmfsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
