@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
 import tr.mfk.cafereservation.databinding.FragmentRoleBinding
+import tr.mfk.cafereservation.ui.MainActivity
 
 @AndroidEntryPoint
 class RoleFragment : Fragment() {
@@ -31,6 +32,11 @@ class RoleFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (requireActivity() as MainActivity).bottomNavigationVisibility(false)
+        handleClickEvents()
+    }
+
+    private fun handleClickEvents() {
 
     }
 
