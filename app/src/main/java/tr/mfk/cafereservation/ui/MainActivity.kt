@@ -39,6 +39,18 @@ class MainActivity : AppCompatActivity() {
                 bottomNavigation.gone()
             }
         }
-
     }
+
+    fun setupBottomNavigationMenu(isMerchant:Boolean) {
+        with(binding){
+            if (isMerchant){
+                bottomNavigation.menu.clear()
+                bottomNavigation.inflateMenu(R.menu.menu_merchant);
+            }else{
+                bottomNavigation.menu.clear()
+                bottomNavigation.inflateMenu(R.menu.menu_customer);
+            }
+        }
+    }
+
 }

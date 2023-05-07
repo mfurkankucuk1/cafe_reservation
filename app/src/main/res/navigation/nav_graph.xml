@@ -18,5 +18,22 @@
         android:id="@+id/roleFragment"
         android:name="tr.mfk.cafereservation.ui.role.RoleFragment"
         android:label="fragment_role"
-        tools:layout="@layout/fragment_role" />
+        tools:layout="@layout/fragment_role" >
+        <action
+            android:id="@+id/action_roleFragment_to_customerFragment"
+            app:destination="@id/customerFragment" />
+        <action
+            android:id="@+id/action_roleFragment_to_merchantFragment"
+            app:destination="@id/merchantFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerFragment"
+        android:name="tr.mfk.cafereservation.ui.customer.CustomerFragment"
+        android:label="fragment_customer"
+        tools:layout="@layout/fragment_customer" />
+    <fragment
+        android:id="@+id/merchantFragment"
+        android:name="tr.mfk.cafereservation.ui.merchant.MerchantFragment"
+        android:label="fragment_merchant"
+        tools:layout="@layout/fragment_merchant" />
 </navigation>
